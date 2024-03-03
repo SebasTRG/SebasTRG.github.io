@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Verdana;
+    background-image: url("imagenes/fondo.jpg");
+}
+div.central{
+    width: 80%;
+    margin: auto;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 8px;
+
+}
+header nav a{
+    margin: auto;
+    display: inline;
+    color:crimson;
+
+}
+
+.link{
+    text-decoration: none;
+}
+.imagenes{
+    width:100%;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+div.responsives{
+    display: none;
+}
+div table thead tr th{
+    padding: 10px;
+}
+.alineado{
+    text-align: center;
+}
+div table tbody th, td{
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.color_gris{
+    background-color: lightgray;
+}
+img {
+    display: block;
+    margin: auto;
+}
